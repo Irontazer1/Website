@@ -1,0 +1,28 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#background-container {
+    text-align: center;
+}
+
+#image-input {
+    margin-top: 10px;
+}
+
+#image-preview {
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #333;
+    background-size: cover;
+    background-position: center;
+}
