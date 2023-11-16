@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hintergrundbild Webseite</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="background-container">
+        <label for="image-input">Hintergrundbild auswählen:</label>
+        <input type="file" id="image-input" accept="image/*">
+        <div id="image-preview"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
